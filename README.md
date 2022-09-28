@@ -22,12 +22,12 @@
 10. Cudnn 8.0.4+
 
 ## 注意事项  
-1. 更新yolo-tiny残差模块，加入组卷积(GConv)与通道洗牌机制(ShuffleUnit)
-2．更新基于携带多分类目标掩码的CrossEntropy误差，降低过拟合现象
-3. 更新推理时检测框体的检出标准
-4. 加入正则化操作，降低过拟合影响
+1. 更新yolo-tiny残差模块，加入组卷积(GConv)与通道洗牌机制(ShuffleUnit)  
+2．更新基于携带多分类目标掩码的CrossEntropy误差，降低过拟合现象  
+3. 更新推理时检测框体的检出标准  
+4. 加入正则化操作，降低过拟合影响  
 5. 数据与标签路径、训练参数等均位于config.py  
-6. onnx通用部署模型转换位于./onnx目录下
+6. onnx通用部署模型转换位于./onnx目录下  
 
 ## 网络结构
 YOLO based on ShuffleNet  
@@ -132,8 +132,8 @@ Forward/backward pass size (MB): 9922.07
 Params size (MB): 25.33  
 Estimated Total Size (MB): 9949.38  
 ----------------------------------------------------------------  
-## 效果展示
-![image]()
+## 效果展示  
+![image](https://github.com/JJASMINE22/yolo_tiny_pytorch/blob/main/sample/sample.jpg)  
 
 ## 数据下载    
 coco2017  
